@@ -23,6 +23,8 @@ char* StrCpy(char* src)
 
 	return NewStr;
 }
+
 /**
 本地edit
 **/
+
