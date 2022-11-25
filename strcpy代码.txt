@@ -23,6 +23,3 @@ char* StrCpy(char* src)
 
 	return NewStr;
 }
-/**
-远程edit
-**/
