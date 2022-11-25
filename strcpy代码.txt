@@ -1,0 +1,25 @@
+char* StrCpy(char* src)
+{
+	int length=0;
+	int j = 0;
+	while (src[j] != '\0')
+	{
+		length++;
+		j++;
+	}
+	cout << length << endl;
+
+	char* NewStr;
+	NewStr = (char*)malloc((length + 1) * sizeof(char*));
+
+	int i = 0;
+	while (src[i] != 0)
+	{
+		NewStr[i] = src[i];
+		i++;
+	}
+
+	NewStr[i] = '\0';
+
+	return NewStr;
+}
